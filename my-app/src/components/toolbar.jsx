@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { IoMdSearch } from "react-icons/io";
 import "../index.css";
 
 class Toolbar extends Component {

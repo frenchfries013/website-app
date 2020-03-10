@@ -5,5 +5,15 @@ import "./index.css";
 
 import "bootstrap/dist/css/bootstrap.css";
 import Toolbar from "./components/toolbar";
+import CreatePost from "./components/createPost";
 
-ReactDOM.render(<Toolbar />, document.getElementById("root"));
+const App = () => {
+  return (
+    <div>
+      <Toolbar />
+      <CreatePost />
+    </div>
+  );
+};
+
+ReactDOM.render(<App />, document.getElementById("root"));
