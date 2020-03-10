@@ -18,7 +18,7 @@ class Toolbar extends Component {
               Contact
             </a>
           </span>
-          <h2 class=".col-md-4 text-center">Website App!</h2>
+          <h2 class="col-md-4 text-center">Website App!</h2>
           <span>
             <form class="form-inline my-2 my-lg-0">
               <input
